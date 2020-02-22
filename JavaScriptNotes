@@ -1,0 +1,15 @@
+JavaScript basics;
+Can be inline; internal using <script> element; external link
+Lives at foot of <body>. html needs to load before JS can act on it.
+
+document.write(); method is a pre-existing function (fn) in html
+syntax: name.of.fn(argument); ends statement
+
+Variable:
+named container for storing values, which can then be changed.
+declared using var
+
+Datatype:
+data with predefined characteristics eg; number, string 
+String: "numbers, letters, symbols";
+Number: any number auto recognised, displays result of calculation + - * /
