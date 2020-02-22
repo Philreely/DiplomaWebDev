@@ -1,6 +1,7 @@
 JavaScript basics;
 Can be inline; internal using <script> element; external link
 Lives at foot of <body>. html needs to load before JS can act on it.
+Case sensitive - camel case
 
 document.write(); method is a pre-existing function (fn) in html
 syntax: name.of.fn(argument); ends statement
@@ -13,3 +14,15 @@ Datatype:
 data with predefined characteristics eg; number, string 
 String: "numbers, letters, symbols";
 Number: any number auto recognised, displays result of calculation + - * /
+Boolian: true OR false for resolving comparisons > < ==
+
+Declare a variable named myVar: var myVar = ("The number 42 is interesting!")
+
+Step 1: target documnt where html written
+Step 2: get element using its ID
+Step 3: get content inside using .innerHTML property
+document.getElementsByTagName('p') targets all <p> elements
+document.getElementById('ID') targets specific element with ID tag
+
+var parInfo = document.getElementById('par2').innerHTML;
+would create a variable named parInfo that stores the html content of an element with <id="par2">
