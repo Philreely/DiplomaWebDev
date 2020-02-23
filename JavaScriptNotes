@@ -18,7 +18,7 @@ Boolian: true OR false for resolving comparisons > < ==
 
 Declare a variable named myVar: var myVar = ("The number 42 is interesting!")
 
-Step 1: target documnt where html written
+Step 1: target document where html written
 Step 2: get element using its ID
 Step 3: get content inside using .innerHTML property
 document.getElementsByTagName('p') targets all <p> elements
@@ -39,3 +39,30 @@ Declare function:
   function myFunc(parameters){
     function.steps.taken("on a datatype")
   }
+
+Example:
+Button
+<p id="par2">This is paragraph 2</p>
+<input type="text" id="userInput">
+<button onclick="myFunc()">Click Me</button>
+
+function myFunc(){
+  /* this stores value of input box to variable */
+  var textValue = document.getElementById("userInput").value;  /* use value rather than innerHTML because input not known & not html */
+  /* this changes innerHTML of par2 to be user input textValue */
+  document.getElementById("par2").innerHTML = textValue;
+}
+
+Add parameter, for duration of function only: 
+<p id="par2">This is paragraph 2</p>
+<input type="text" id="userInput">
+<button onclick="myFunc(userInput)">Click Me</button>
+
+function myFunc(inputId){
+  /* now modular, can use function whenever called, just need to give id when call function */
+  var textValue = document.getElementById(inputId).value;
+  document.getElementById("par2").innerHTML = textValue;
+}
+
+Parameter is a variable inside a method definition or function declaration
+Argument is the data passed to a function's parameters, given to the function when the function is called
