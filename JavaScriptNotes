@@ -26,3 +26,16 @@ document.getElementById('ID') targets specific element with ID tag
 
 var parInfo = document.getElementById('par2').innerHTML;
 would create a variable named parInfo that stores the html content of an element with <id="par2">
+
+Function:
+instruction that may/not return a value
+Pre-existing JS functions cf; mozilla development network
+declare new function using function
+
+Call function:
+  myFunc(argument if any);
+  
+Declare function:
+  function myFunc(parameters){
+    function.steps.taken("on a datatype")
+  }
