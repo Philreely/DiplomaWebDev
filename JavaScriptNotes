@@ -66,3 +66,13 @@ function myFunc(inputId){
 
 Parameter is a variable inside a method definition or function declaration
 Argument is the data passed to a function's parameters, given to the function when the function is called
+
+PHP
+= PHP Hypertext Preprocessor
+server side scripting language designed for web dev
+dynamically generates html code and executes on server only
+Enabled by .php extension
+<?php  //PHP code goes here ?>
+php module reads code, accesses database and outputs html to browser
+PHP code is server side only & therefore secure - kept away from user/browser
+(PHP goes into htdocs subfolder of xamp)
