@@ -76,3 +76,15 @@ Enabled by .php extension
 php module reads code, accesses database and outputs html to browser
 PHP code is server side only & therefore secure - kept away from user/browser
 (PHP goes into htdocs subfolder of xamp)
+
+in html:
+echo statement writes to html - see index.php - run on localhost xamp
+style with html tags
+Carry out same maths, comparisons etc as in JS
+Full stop concatenates strings
+Declare variable with $
+Call existing variable with $
+if declares if group (){}
+else declares else group {}
+for loops and arrays call with ()
+sizeof function checks length of array or string
