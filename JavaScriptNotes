@@ -88,3 +88,7 @@ if declares if group (){}
 else declares else group {}
 for loops and arrays call with ()
 sizeof function checks length of array or string
+
+html form
+POST inputs to process.php
+Info found in array $_POST[], holding string equal to content of input box name. Variable value = input field value
