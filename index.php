@@ -29,7 +29,13 @@
           echo "<p>the element in the array is: ".$myAnimals[$i}."</p>"
 
 
-
+/* html form */
+         <form action="process.php" method="POST">
+            <input type="text" name="username">
+            <input type="password" name="password">
+            <button type="submit">Login</button>
+         </form>
+                                                              
 
 
 
