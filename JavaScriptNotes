@@ -92,3 +92,15 @@ sizeof function checks length of array or string
 html form
 POST inputs to process.php
 Info found in array $_POST[], holding string equal to content of input box name. Variable value = input field value
+
+Databases
+Queried by SQL
+Structured set of data, accessible, easily searched and changed.
+Simplest are flat file DBs. Like 2D table or spreadsheet. Columns = fields, rows = records
+SQL = Structured Query Language
+PHP uses "mysqli" object to interact with DB.
+Select data with: SELECT * FROM table_name (* selects all fields)
+Insert data with: INSERT INTO table_name(field_names)
+                  VALUES (value1, value2, value3)
+                  
+Manage DBs via XAMPP and phpMyAdmin
